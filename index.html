@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shakil Hasan - Graphic Designer & Digital Marketer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">Shakil Hasan</div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Hi, I'm <span>Shakil Hasan</span></h1>
+          <h2>Graphic Designer & Digital Marketer</h2>
+          <p>Transforming ideas into visually compelling designs and effective digital marketing strategies.</p>
+          <div class="cta-buttons">
+            <a href="#portfolio" class="btn primary-btn">View My Work</a>
+            <a href="#contact" class="btn secondary-btn">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="images/shakil-hasan.jpeg" alt="Shakil Hasan">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-header">
+        <h2>About Me</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="about-content">
+        <div class="about-image">
+          <img src="images/shakil-hasan.jpeg" alt="Shakil Hasan">
+        </div>
+        <div class="about-text">
+          <h3>Professional Graphic Designer & Digital Marketer</h3>
+          <p>I am Shakil Hasan, a passionate graphic designer and digital marketing specialist with a keen eye for detail and a creative approach to problem-solving. With years of experience in the industry, I've helped numerous clients achieve their visual communication and marketing goals.</p>
+          <p>My expertise spans across various design disciplines including brand identity, print design, UI/UX, and digital marketing strategies that drive results.</p>
+          <div class="skills">
+            <h4>My Skills</h4>
+            <div class="skill-bars">
+              <div class="skill">
+                <span>Graphic Design</span>
+                <div class="skill-bar">
+                  <div class="skill-level" style="width: 95%;"></div>
+                </div>
+              </div>
+              <div class="skill">
+                <span>Digital Marketing</span>
+                <div class="skill-bar">
+                  <div class="skill-level" style="width: 90%;"></div>
+                </div>
+              </div>
+              <div class="skill">
+                <span>UI/UX Design</span>
+                <div class="skill-bar">
+                  <div class="skill-level" style="width: 85%;"></div>
+                </div>
+              </div>
+              <div class="skill">
+                <span>Social Media Marketing</span>
+                <div class="skill-bar">
+                  <div class="skill-level" style="width: 92%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <div class="container">
+      <div class="section-header">
+        <h2>My Services</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-paint-brush"></i>
+          </div>
+          <h3>Graphic Design</h3>
+          <p>Professional graphic design services including logos, branding, print materials, and digital assets.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-bullhorn"></i>
+          </div>
+          <h3>Digital Marketing</h3>
+          <p>Comprehensive digital marketing strategies to boost your online presence and drive conversions.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-desktop"></i>
+          </div>
+          <h3>UI/UX Design</h3>
+          <p>User-centered interface and experience design for websites and applications that engage users.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-hashtag"></i>
+          </div>
+          <h3>Social Media Marketing</h3>
+          <p>Strategic social media campaigns that build brand awareness and connect with your target audience.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <h3>SEO Optimization</h3>
+          <p>Search engine optimization to improve your website's visibility and drive organic traffic.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-id-card"></i>
+          </div>
+          <h3>Brand Identity</h3>
+          <p>Comprehensive brand identity development that communicates your brand's values and personality.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <h2>My Portfolio</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="portfolio-filter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="graphic-design">Graphic Design</button>
+        <button class="filter-btn" data-filter="digital-marketing">Digital Marketing</button>
+        <button class="filter-btn" data-filter="ui-ux">UI/UX</button>
+      </div>
+      <div class="portfolio-grid">
+        <!-- Portfolio items will be dynamically added with JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials" class="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <h2>Client Testimonials</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="testimonial-slider">
+        <div class="testimonial">
+          <div class="testimonial-content">
+            <p>"Shakil's design work exceeded our expectations. His attention to detail and creative approach helped our brand stand out in a competitive market."</p>
+          </div>
+          <div class="testimonial-author">
+            <h4>John Smith</h4>
+            <p>CEO, Design Agency</p>
+          </div>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial-content">
+            <p>"Working with Shakil on our digital marketing campaign was a game-changer. We saw a significant increase in engagement and conversions."</p>
+          </div>
+          <div class="testimonial-author">
+            <h4>Sarah Johnson</h4>
+            <p>Marketing Director, Tech Startup</p>
+          </div>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial-content">
+            <p>"Shakil's expertise in both graphic design and digital marketing provided us with a cohesive strategy that delivered real results."</p>
+          </div>
+          <div class="testimonial-author">
+            <h4>Michael Brown</h4>
+            <p>Founder, E-commerce Brand</p>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2>Get In Touch</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          <div class="info-item">
+            <i class="fas fa-envelope"></i>
+            <p>contact@shakilhasan.xyz</p>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-phone"></i>
+            <p>+880 123 456 7890</p>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>Dhaka, Bangladesh</p>
+          </div>
+          <div class="social-links">
+            <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-behance"></i></a>
+          </div>
+        </div>
+        <div class="contact-form">
+          <h3>Send Me a Message</h3>
+          <form id="contactForm">
+            <div class="form-group">
+              <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <input type="text" id="subject" name="subject" placeholder="Subject" required>
+            </div>
+            <div class="form-group">
+              <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn primary-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <p>&copy; 2025 Shakil Hasan. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
